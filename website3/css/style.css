@@ -1,0 +1,92 @@
+.navbar .navbar-nav{
+    border-left: 1px solid lightslategrey;
+}
+
+
+.carousel-item{
+    height: 450px;
+}
+
+.car-img1{
+    background: url('../img/image1.jpg');
+    background-size: cover;
+}
+
+.car-img2{
+    background: url('../img/image2.jpg');
+    background-size: cover;
+}
+
+.car-img3{
+    background: url('../img/image3.jpg');
+    background-size: cover;
+}
+
+
+.cl-lights{
+    position:relative;
+    min-height: 200px;
+    background: url('../img/lights.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+.cl-video{
+    position:relative;
+    min-height: 200px;
+    background: url('../img/media.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+.dark-overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.705);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#about-sec{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 240px;
+	background: url("../img/image3.jpg");
+}
+
+#about-explore img{
+    margin-top: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

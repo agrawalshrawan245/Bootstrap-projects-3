@@ -1,0 +1,50 @@
+body{
+	margin-top: 90px;
+}
+
+
+
+nav{
+	border-bottom: 3px solid rgba(146, 50, 235, 0.778);
+	background-color: rgb(232, 235, 235);
+}
+
+
+
+.homeDiv{
+	background: url(./img/mountains.jpg);
+	background-size: cover;
+	min-height: 400px;
+}
+
+
+.homeInner{
+	background: rgba(63, 186, 180, 0.559);
+	min-height: 400px;
+}
+
+
+.about-inner{
+	width: 60%;
+	margin: auto;
+	margin-bottom: 70px;
+	border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+
+.meet-img{
+	margin: auto;
+	margin-top: -50px;
+}
+
+.meet-card:hover{
+	background: steelblue;
+	color: white;
+}
+
+
+.meet-fab{
+	color: #fff;
+}
+
+

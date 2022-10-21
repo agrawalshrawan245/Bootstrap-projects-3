@@ -1,0 +1,227 @@
+- MODALS
+- CARD-HEADER
+- NAVBAR
+- FORMS
+- TABLES
+- input-groups
+- collapse
+- carousel
+- dropdowns
+- list-group, pagination, jumbotron, tooltips, popovers
+
+
+------------------------MODALS-----------------------
+modal(id="xyz"){
+    modal-dialog{
+        modal-content{
+            
+            model-header{
+                modal-title{}
+                button,data-dismiss="modal"
+            }
+
+            modal-body{
+                
+            }
+
+            modal-footer{
+                button,data-dismiss="modal"
+            }
+
+        }
+    }
+}
+
+
+
+---------------------CARD---HEADER--------------------
+card{
+    card-header{
+
+    }
+
+    img.card-img-top{
+
+    }
+
+    card-body{
+        card-title{}
+        card-text{}
+    }
+
+    card-footer{
+
+    }
+}
+
+
+
+-----------------------NAVBAR--------------------------
+nav(navbar, navbar-expand-sm){
+    a(navbar-brand){}
+
+    button(navbar-toggler, data-toggle=collapse, id=#ID){
+        span(navbar-toggler-icon){}
+    }
+
+    div(collapse navbar-collapse id=#ID){
+        ul(navbar-nav){
+            li(nav-item){a(nav-link){}}
+            li(nav-item){a(nav-link){}}
+            li(nav-item){a(nav-link){}}
+        }
+        (put-other-stuff as required){}
+    }
+}
+
+
+
+-----------------------FORMS--------------------------
+
+Input types 
+input(text, password, file, range, checkbox, radio)
+select
+textarea 
+
+
+form{
+    div(form-group){
+        label(){}
+        input(form-control, type=text, placeholder)
+    }
+
+    div(form-group){
+        label(){}
+        input(form-control, row=3)
+    }
+
+    div(form-group){
+        label(){Gender}
+        select(form-control){
+            option(){Male}
+            option(){Female}
+        }
+    }
+
+    div(form-group){
+        label(){}
+        input(form-control, type=file, placeholder)
+    }
+
+    div(form-group){
+        label(){}
+        textarea(form-control)
+    }
+
+    div(form-group){
+        label(){}
+        input(custom-range, type=range, placeholder)
+    }
+
+}
+
+
+--------------------TABLES---------------------
+table(table){
+    thead(){
+        tr(){
+            th(){}
+            th(){}
+            th(){}
+        }
+    }
+
+    tbody(){
+        tr(){
+            td(){}
+            td(){}
+            td(){}
+        }
+        tr(){
+            td(){}
+            td(){}
+            td(){}
+        }
+    }
+}
+
+-------------------INPUT--GROUPS----------------------
+
+Input groups - task is to join all the inputs
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                Checkboxes, radio, content
+
+                <span class="input-group-text" id="">Name & Email</span>
+            </div>
+            <input class="form-control" type="text" placeholder="Full Name">
+            <input class="form-control" type="email" placeholder="Email">
+        </div>
+
+
+-------------------COLLAPSE----------------------
+
+    <button data-toggle="collapse" data-target="#ID">Read More</button>
+    <a href=#ID data-toggle="collapse"> Collapse </a>
+
+    <div id=#ID>
+
+
+
+
+
+-------------------CAROUSEL----------------------
+
+    <div id="slider3" class="carousel slide mb-5" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#slider3" data-slide-to="0"></li>
+        <li data-target="#slider3" data-slide-to="1"></li>
+        <li data-target="#slider3" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block img-fluid" src="https://source.unsplash.com/wgq4eit198Q/700x400" alt="First Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="https://source.unsplash.com/WLUHO9A_xik/700x400" alt="Second Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="https://source.unsplash.com/4yta6mU66dE/700x400" alt="Third Slide">
+        </div>
+      </div>
+
+
+      <a href="#slider3" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a href="#slider3" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+
+
+-------------------TOOLTIPS----------------------
+
+    <button id="hello" class="btn btn-primary" data-toggle="tooltip" data-placement="top" data-html="true" title="<h3>Hello</h3><p>Hello World</p>">Tooltip On With HTML</button>
+
+
+
+-------------------POPOVERS----------------------
+
+    <button class="btn btn-primary" data-toggle="popover" data-placement="right" data-content="Lorem ipsum dolor sit amet."> Toggle popover </button>
+
+
+
+
+
+
+
+
+
+
+

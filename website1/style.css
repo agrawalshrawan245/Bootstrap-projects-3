@@ -1,0 +1,39 @@
+body{
+    background: #333;
+    color: #fff;
+}
+
+.navbar{
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.75;
+}
+
+.home-inner{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#homeId {
+    background: url(./img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 750px; */
+}
+
+#homeId .dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    /* height: 750px; */
+}
+
+#homeId .fas {
+    color:#008ed6;
+    background-color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+section {
+    padding: 50px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+}
