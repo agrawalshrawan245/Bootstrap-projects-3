@@ -1,27 +1,28 @@
-- MODALS
-- CARD-HEADER
-- NAVBAR
-- FORMS
-- TABLES
-- input-groups
-- collapse
-- carousel
-- dropdowns
-- list-group, pagination, jumbotron, tooltips, popovers
+-   MODALS
+-   CARD-HEADER
+-   NAVBAR
+-   FORMS
+-   TABLES
+-   input-groups
+-   collapse
+-   carousel
+-   dropdowns
+-   list-group, pagination, jumbotron, tooltips, popovers
 
+## MODALS
 
-------------------------MODALS-----------------------
+```
 modal(id="xyz"){
     modal-dialog{
         modal-content{
-            
+
             model-header{
                 modal-title{}
                 button,data-dismiss="modal"
             }
 
             modal-body{
-                
+
             }
 
             modal-footer{
@@ -31,14 +32,15 @@ modal(id="xyz"){
         }
     }
 }
+```
 
+## CARD HEADER
 
-
----------------------CARD---HEADER--------------------
+```
 card{
     card-header{
 
-    }
+        }
 
     img.card-img-top{
 
@@ -52,11 +54,13 @@ card{
     card-footer{
 
     }
+
 }
+```
 
+## NAVBAR
 
-
------------------------NAVBAR--------------------------
+```
 nav(navbar, navbar-expand-sm){
     a(navbar-brand){}
 
@@ -72,23 +76,23 @@ nav(navbar, navbar-expand-sm){
         }
         (put-other-stuff as required){}
     }
+
 }
+```
 
+## FORMS
 
-
------------------------FORMS--------------------------
-
-Input types 
+Input types
 input(text, password, file, range, checkbox, radio)
 select
-textarea 
+textarea
 
-
+```
 form{
-    div(form-group){
-        label(){}
-        input(form-control, type=text, placeholder)
-    }
+div(form-group){
+label(){}
+input(form-control, type=text, placeholder)
+}
 
     div(form-group){
         label(){}
@@ -119,9 +123,11 @@ form{
     }
 
 }
+```
 
+## TABLES
 
---------------------TABLES---------------------
+```
 table(table){
     thead(){
         tr(){
@@ -143,12 +149,15 @@ table(table){
             td(){}
         }
     }
-}
 
--------------------INPUT--GROUPS----------------------
+}
+```
+
+## INPUT GROUPS
 
 Input groups - task is to join all the inputs
 
+```
         <div class="input-group">
             <div class="input-group-prepend">
                 Checkboxes, radio, content
@@ -158,21 +167,20 @@ Input groups - task is to join all the inputs
             <input class="form-control" type="text" placeholder="Full Name">
             <input class="form-control" type="email" placeholder="Email">
         </div>
+```
 
+## COLLAPSE
 
--------------------COLLAPSE----------------------
-
+```
     <button data-toggle="collapse" data-target="#ID">Read More</button>
     <a href=#ID data-toggle="collapse"> Collapse </a>
 
     <div id=#ID>
+```
 
+## CAROUSEL
 
-
-
-
--------------------CAROUSEL----------------------
-
+```
     <div id="slider3" class="carousel slide mb-5" data-ride="carousel">
 
       <ol class="carousel-indicators">
@@ -202,26 +210,16 @@ Input groups - task is to join all the inputs
         <span class="carousel-control-next-icon"></span>
       </a>
     </div>
+```
 
+## TOOLTIPS
 
-
--------------------TOOLTIPS----------------------
-
+```
     <button id="hello" class="btn btn-primary" data-toggle="tooltip" data-placement="top" data-html="true" title="<h3>Hello</h3><p>Hello World</p>">Tooltip On With HTML</button>
+```
 
+## POPOVERS
 
-
--------------------POPOVERS----------------------
-
+```
     <button class="btn btn-primary" data-toggle="popover" data-placement="right" data-content="Lorem ipsum dolor sit amet."> Toggle popover </button>
-
-
-
-
-
-
-
-
-
-
-
+```

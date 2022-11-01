@@ -4,9 +4,9 @@ This is a Bootstrap project done by me.
 
 Also checkout my notes on bootstrap :-
 
-a) [Bootstrap Notes](./bootstrapNotes.txt)
+a) [Bootstrap Notes](./bootstrapNotes.md)
 
-b) [Design elements](./designElements.txt)
+b) [Design elements](./designElements.md)
 
 Here are the links for the three projects click on the images to check out the original websites.
 
