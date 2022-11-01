@@ -1,7 +1,14 @@
 # Bootstrap-projects-3
 
 This is a Bootstrap project done by me.
-Here are the links for the three projects
+
+Also checkout my notes on bootstrap :-
+
+a) [Bootstrap Notes](./bootstrapNotes.txt)
+
+b) [Design elements](./designElements.txt)
+
+Here are the links for the three projects click on the images to check out the original websites.
 
 1. [LoopLab](https://agrawalshrawan245.github.io/Bootstrap-projects-3/website1/index.html)
  <p align="center">
@@ -12,11 +19,11 @@ Here are the links for the three projects
 2. [Mizuxe](https://agrawalshrawan245.github.io/Bootstrap-projects-3/website2/index.html)
  <p align="center">
    <a href="https://agrawalshrawan245.github.io/Bootstrap-projects-3/website2/index.html" rel="noopener">
-  <img src="./website1/img/website2.png" alt="Project logo"></a>
+  <img src="./website2/img/website2.png" alt="Project logo"></a>
  </p>
 
 3. [Glozzom](https://agrawalshrawan245.github.io/Bootstrap-projects-3/website3/index.html)
  <p align="center">
    <a href="https://agrawalshrawan245.github.io/Bootstrap-projects-3/website3/index.html" rel="noopener">
-  <img src="./website1/img/website3.png" alt="Project logo"></a>
+  <img src="./website3/img/website3.png" alt="Project logo"></a>
  </p>
