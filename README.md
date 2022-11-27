@@ -12,7 +12,7 @@ Here are the links for the three projects click on the images to check out the o
 
 1. [LoopLab](https://sh-rawan.github.io/Bootstrap-projects-3/website1/index.html)
  <p align="center">
-   <a href="https://sh-waran.github.io/Bootstrap-projects-3/website1/index.html" rel="noopener">
+   <a href="https://sh-rawan.github.io/Bootstrap-projects-3/website1/index.html" rel="noopener">
   <img src="./website1/img/website1.png" alt="Project logo"></a>
  </p>
 
